@@ -1,0 +1,59 @@
+/* responsive for mobile devices */
+
+
+@media screen and(max-width:576px) {
+
+    .nav-container,.nav-link-section,.nav-sub-content,.nav-title,.careers {
+        flex-direction: column;
+    }
+
+    .banner,.gamer-section,.horse-ride,.anime-part{
+        flex-direction:column-reverse;
+    }
+    .games-grid-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .funny-videos-container,.footer-item,footer-terms{
+        flex-direction: column;
+    }
+
+    .grid-container{
+        grid-template-columns:auto;
+    }
+
+    .icons-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+
+
+/* responsive for medium devices */
+
+@media  screen and(min-width:576px)  and (max-width:768px){
+
+    .nav-container,.nav-link-section,.nav-sub-content,.nav-title,.careers {
+        flex-direction: column;
+    }
+
+    .banner,.gamer-section,.horse-ride,.anime-part{
+        flex-direction:column-reverse;
+    }
+    .games-grid-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .funny-videos-container,.footer-item,footer-terms{
+        flex-direction: column;
+    }
+
+    .grid-container{
+        grid-template-columns:auto;
+    }
+
+    .icons-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
